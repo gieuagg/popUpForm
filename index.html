@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jQueryv3.6.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <title>Login Form</title>
+</head>
+
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="col" id="imgDiv">
+       <label>Your fingerprint </label> <br><br>
+       <img src="img/fingerprint.jpeg" id="fingepr"> <br><br>
+       <label>Worths S * * t </label> <br>
+       <hr>
+       <label> Better try something else</label><br>
+       <img src="img/show.jpeg" id="handImg">
+    </div>
+
+    <div class="col" id="formDiv">
+      <label id="alternative">How about that doorbell?</label><br>
+      <button id="doorbell" onclick="ringBell()"></button>
+      <audio><source src="img/door.mp3" id ="bell"></audio>
+      <div class="container">
+      <form id="loginForm">
+        <div class="mb-3">
+          <label for="exampleInputUsername" class="form-label">Username</label>
+          <input type="username" class="form-control" id="exampleInputUsername">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="audio.play()">Submit</button>
+      </form>
+</div>
+
+      <img src="img/monophy.webp" id="eyesImg">
+    </div>
+  </div>
+</div>
+   
+</div>
+
+
+</body>
+</html>

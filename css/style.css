@@ -1,0 +1,59 @@
+#imgDiv {
+	background-color: #3d3b53;
+	height:100%;
+	width: 30%;
+	margin: 0;
+	position: absolute;
+	color: #fff;
+	font-family: 'Brush Script MT', cursive;
+	padding-top: 5%;
+	font-size: 2.5em;
+	text-align: center;
+}
+#fingepr{
+	width:20%;
+	border-radius: 100%;
+}
+
+#handImg{
+	border-radius: 10%;
+	width:50%;
+	margin-top: 5%;
+}
+
+#formDiv{
+	color: black;
+	text-align: center;
+
+}
+#eyesImg{
+	margin-left: 30%;
+	width:10%;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	float: right;
+}
+
+#alternative{
+	margin-top: 5%;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 2.5em;
+}
+#doorbell{
+	background-image: url('../img/doorbell.jpeg');
+	width: 200px;
+	height: 200px;
+	background-size: 100% 100%;
+	position: relative;
+	border: none;
+	z-index: 1;
+
+}
+
+#loginForm{
+	visibility:	hidden;
+	width:30%;
+	margin-left:40%;
+	margin-top: 5%;
+}
